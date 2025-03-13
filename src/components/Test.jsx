@@ -6,7 +6,7 @@ import { Flip } from "gsap/Flip";
 
 gsap.registerPlugin(Flip);
 gsap.registerPlugin(ScrollTrigger);
-const Story = () => {
+const Test = () => {
   const itemRef = useRef(null);
   useGSAP(() => {
     gsap.to(".one", {
@@ -56,4 +56,10 @@ const Story = () => {
 
   );
 };
-export default Story;
+export default Test;
+
+
+{
+
+  0.9998;
+}
